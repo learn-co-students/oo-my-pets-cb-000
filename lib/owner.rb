@@ -1,24 +1,29 @@
 class Owner
   attr_reader :species
   attr_accessor :pets, :name
-  OWNERS = []
+  # OWNERS = []
+  @@owners = []
 
   def initialize(species)
     @species = species
-    OWNERS << self
+    # OWNERS << self
+    @@owners << self
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
   def self.all
-    OWNERS
+    # OWNERS
+    @@owners
   end
 
   def self.count
-    OWNERS.size
+    # OWNERS.size
+    @@owners.size
   end
 
   def self.reset_all
-    OWNERS.clear
+    # OWNERS.clear
+    @@owners.clear
   end
 
   def say_species
@@ -67,9 +72,6 @@ class Owner
   def list_pets
     "I have #{pets[:fishes].count} fish, #{pets[:dogs].count} dog(s), and #{pets[:cats].count} cat(s)."
   end
-
-  # expect(owner.list_pets).to eq("I have 2 fish, 3 dog(s), and 1 cat(s).")
-  # got: {:fishes=>[#<Fish:0x007f878d879a30 @name="Bubbles", @mood="nervous">, #<Fish:0x007f878d879968 @name="...79558 @name="Snuffles", @mood="nervous">, #<Dog:0x007f878d8794e0 @name="Charley", @mood="nervous">]}
 
 end
 
