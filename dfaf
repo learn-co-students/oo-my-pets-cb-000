@@ -1,0 +1,77 @@
+=> [[32m#<Owner:0x00000001dd6610[0m
+  @name[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m,
+  @pets[32m=[0m{[33m:fishes[0m=>[], [33m:dogs[0m=>[], [33m:cats[0m=>[]},
+  @species[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Owner:0x00000001dd4568[0m
+  @name[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m,
+  @pets[32m=[0m{[33m:fishes[0m=>[], [33m:dogs[0m=>[], [33m:cats[0m=>[]},
+  @species[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Owner:0x00000001dd1ef8[0m
+  @name[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m,
+  @pets[32m=[0m{[33m:fishes[0m=>[], [33m:dogs[0m=>[], [33m:cats[0m=>[]},
+  @species[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Owner:0x00000001dd0760[0m
+  @name[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m,
+  @pets[32m=[0m{[33m:fishes[0m=>[], [33m:dogs[0m=>[], [33m:cats[0m=>[]},
+  @species[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Owner:0x00000001da61e0[0m
+  @name[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m,
+  @pets[32m=[0m{[33m:fishes[0m=>[], [33m:dogs[0m=>[], [33m:cats[0m=>[]},
+  @species[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Owner:0x00000001da4138[0m
+  @name[32m=[0m[31m[1;31m"[0m[31mKatie[1;31m"[0m[31m[0m,
+  @pets[32m=[0m{[33m:fishes[0m=>[], [33m:dogs[0m=>[], [33m:cats[0m=>[]},
+  @species[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Owner:0x00000001d9a110[0m
+  @name[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m,
+  @pets[32m=[0m{[33m:fishes[0m=>[], [33m:dogs[0m=>[], [33m:cats[0m=>[]},
+  @species[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Owner:0x00000001d9acf0[0m
+  @name[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m,
+  @pets[32m=[0m
+   {[33m:fishes[0m=>[[32m#<Fish:0x00000001d9b678[0m @mood[32m=[0m[31m[1;31m"[0m[31mnervous[1;31m"[0m[31m[0m, @name[32m=[0m[31m[1;31m"[0m[31mBubbles[1;31m"[0m[31m[0m[32m>[0m],
+    [33m:dogs[0m=>[],
+    [33m:cats[0m=>[]},
+  @species[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Owner:0x00000001d8e568[0m
+  @name[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m,
+  @pets[32m=[0m
+   {[33m:fishes[0m=>[[32m#<Fish:0x00000001d8e400[0m @mood[32m=[0m[31m[1;31m"[0m[31mnervous[1;31m"[0m[31m[0m, @name[32m=[0m[31m[1;31m"[0m[31mBubbles[1;31m"[0m[31m[0m[32m>[0m],
+    [33m:dogs[0m=>[],
+    [33m:cats[0m=>[]},
+  @species[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Owner:0x00000001d8c178[0m
+  @name[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m,
+  @pets[32m=[0m
+   {[33m:fishes[0m=>[],
+    [33m:dogs[0m=>[],
+    [33m:cats[0m=>[[32m#<Cat:0x00000001d8c010[0m @mood[32m=[0m[31m[1;31m"[0m[31mnervous[1;31m"[0m[31m[0m, @name[32m=[0m[31m[1;31m"[0m[31mCrookshanks[1;31m"[0m[31m[0m[32m>[0m]},
+  @species[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Owner:0x00000001d86c50[0m
+  @name[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m,
+  @pets[32m=[0m
+   {[33m:fishes[0m=>[],
+    [33m:dogs[0m=>[],
+    [33m:cats[0m=>[[32m#<Cat:0x00000001d86ae8[0m @mood[32m=[0m[31m[1;31m"[0m[31mnervous[1;31m"[0m[31m[0m, @name[32m=[0m[31m[1;31m"[0m[31mCrookshanks[1;31m"[0m[31m[0m[32m>[0m]},
+  @species[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Owner:0x00000001d73c40[0m
+  @name[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m,
+  @pets[32m=[0m
+   {[33m:fishes[0m=>[],
+    [33m:dogs[0m=>[[32m#<Dog:0x00000001d73a88[0m @mood[32m=[0m[31m[1;31m"[0m[31mnervous[1;31m"[0m[31m[0m, @name[32m=[0m[31m[1;31m"[0m[31mSnuffles[1;31m"[0m[31m[0m[32m>[0m],
+    [33m:cats[0m=>[]},
+  @species[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Owner:0x00000001d722c8[0m
+  @name[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m,
+  @pets[32m=[0m
+   {[33m:fishes[0m=>[],
+    [33m:dogs[0m=>[[32m#<Dog:0x00000001d72188[0m @mood[32m=[0m[31m[1;31m"[0m[31mnervous[1;31m"[0m[31m[0m, @name[32m=[0m[31m[1;31m"[0m[31mSnuffles[1;31m"[0m[31m[0m[32m>[0m],
+    [33m:cats[0m=>[]},
+  @species[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Owner:0x00000001d6bf40[0m
+  @name[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m,
+  @pets[32m=[0m
+   {[33m:fishes[0m=>[],
+    [33m:dogs[0m=>[[32m#<Dog:0x00000001d706d0[0m @mood[32m=[0m[31m[1;31m"[0m[31mnervous[1;31m"[0m[31m[0m, @name[32m=[0m[31m[1;31m"[0m[31mDaisy[1;31m"[0m[31m[0m[32m>[0m],
+    [33m:cats[0m=>[]},
+  @species[32m=[0m[31m[1;31m"[0m[31mhuman[1;31m"[0m[31m[0m[32m>[0m]
