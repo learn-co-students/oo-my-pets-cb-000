@@ -72,9 +72,7 @@ class Owner
     end
   end
 
-  def list_pets
+  def list_pets #=> List all pets an instance of an owner owns.
     "I have #{@pets[:fishes].count} fish, #{@pets[:dogs].count} dog(s), and #{@pets[:cats].count} cat(s)."
   end
-
-
 end
