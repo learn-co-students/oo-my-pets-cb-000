@@ -65,13 +65,18 @@ class Owner
       self.pets[key].clear
     end
   end
-
   def list_pets
-    counter = {}
-    self.pets.each do |key, value|
-        counter[key] = self.pets[key].count
-    end
-    "I have #{counter[:fishes]} fish, #{counter[:dogs]} dog(s), and #{counter[:cats]} cat(s)."
+
+  "I have #{pets[:fishes].count} fish, #{pets[:dogs].count} dog(s), and #{pets[:cats].count} cat(s)."
+
   end
+  # Alternative superfluous Solution for list_pets
+  # def list_pets
+  #   counter = {}
+  #   self.pets.each do |key, value|
+  #       counter[key] = self.pets[key].count
+  #   end
+  #   "I have #{counter[:fishes]} fish, #{counter[:dogs]} dog(s), and #{counter[:cats]} cat(s)."
+  # end
 
 end
