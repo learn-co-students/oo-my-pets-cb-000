@@ -1,0 +1,17 @@
+require_relative './lib/cat.rb'
+require_relative './lib/dog.rb'
+require_relative './lib/fish.rb'
+require_relative './lib/owner.rb'
+require 'pry'
+require 'rake'
+
+def reload!
+  load './lib/dog.rb'
+  load './lib/cat.rb'
+  load './lib/fish.rb'
+  load './lib/owner.rb'
+end
+
+task :console do
+  Pry.start
+end
