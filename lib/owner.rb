@@ -1,10 +1,8 @@
-require 'pry'
+# implementing oo lab
 class Owner
-
   ## instance level variables
   attr_reader :species, :name, :pets
   attr_writer :name, :pets
-  
 
   ## class level variables and methods
   @@owners = []
@@ -13,26 +11,26 @@ class Owner
     @@owners = []
   end
 
-  def self.count 
+  def self.count
     @@owners.size
   end
 
   ## instance level
-  def initialize(species='human')
+  def initialize(species = 'human')
     @species = species
     @@owners << self
-    @pets = {:fishes => [], :dogs => [], :cats => []}
+    @pets = { fishes: [], dogs: [], cats: [] }
   end
 
   def say_species
     "I am a #{species}."
   end
 
-  def buy_cat(name) 
+  def buy_cat(name)
     pets[:cats] << Cat.new(name)
   end
 
-  def buy_dog(name) 
+  def buy_dog(name)
     pets[:dogs] << Dog.new(name)
   end
 
@@ -45,8 +43,6 @@ class Owner
   end
 
   def walk_dogs
-  puts "#### ### ### #{@pets} #####"
-  puts "dogs are #{dogs}} "
     dogs.map(&:happify)
   end
 
@@ -70,15 +66,14 @@ class Owner
   end
 
   def fishes
-    pets[:fishes].select{ |pet| pet.is_a?Fish }
+    pets[:fishes].select { |pet| pet.is_a? Fish }
   end
 
   def dogs
-    pets[:dogs].select{ |pet| pet.is_a?Dog }
+    pets[:dogs].select { |pet| pet.is_a? Dog }
   end
 
   def cats
-    pets[:cats].select{ |pet| pet.is_a?Cat }
+    pets[:cats].select { |pet| pet.is_a? Cat }
   end
-
 end
