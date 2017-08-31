@@ -1,7 +1,7 @@
 require 'pry'
 class Owner
   attr_accessor :name, :pets
-  attr_reader :name, :species
+  attr_reader :species
   @@all = []
   
   def initialize(species)
@@ -28,17 +28,17 @@ class Owner
 
   def buy_fish(name)
    fishy = Fish.new(name)
-   @pets[:fishes] = [fishy]
+   @pets[:fishes] << fishy
   end
 
   def buy_cat(name)
     kitty = Cat.new(name)
-    @pets[:cats] = [kitty]
+    @pets[:cats] << kitty
    end
 
   def buy_dog(name)
     pup = Dog.new(name)
-    @pets[:dogs] = [pup]
+    @pets[:dogs] << pup
    end
 
   def walk_dogs
@@ -65,7 +65,7 @@ class Owner
 
   def list_pets
     # binding.pry
-    
+    "I have #{pets[:fishes].size} fish, #{pets[:dogs].size} dog(s), and #{pets[:cats].size} cat(s)."
   end
 end
 
