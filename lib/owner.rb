@@ -24,6 +24,7 @@ class Owner
   # initializes with a species
   def initialize (species)
     @species = species
+    OWNERS << self
   end
 
   # can say its species
