@@ -40,10 +40,20 @@ class Owner
     pets[:fishes] << Fish.new(name)
   end
 
+  # feeds the fishes which makes the fishes' moods happy
+  def feed_fish
+    pets[:fishes].each {|fish| fish.mood = 'happy'}
+  end
+
   # can buy a cat that is an instance of the Cat class
   # knows about its cats
   def buy_cat(name)
     pets[:cats] << Cat.new(name)
+  end
+
+  # plays with the cats which makes the cats moods happy
+  def play_with_cats
+    pets[:cats].each {|cat| cat.mood = 'happy'}
   end
 
   # can buy a dog that is an instance of the Dog class
@@ -51,4 +61,10 @@ class Owner
   def buy_dog(name)
     pets[:dogs] << Dog.new(name)
   end
+
+  # walks the dogs which makes the dogs' moods happy
+  def walk_dogs
+    pets[:dogs].each {|dog| dog.mood = 'happy'}
+  end
+
 end
