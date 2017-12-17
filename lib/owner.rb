@@ -29,5 +29,6 @@ class Owner
 
   # can say its species
   def say_species
+    "I am a #{species}."
   end
 end
