@@ -67,4 +67,16 @@ class Owner
     pets[:dogs].each {|dog| dog.mood = 'happy'}
   end
 
+  # can sell all its pets, which make them nervous
+  def sell_pets
+    pets.each do |species, animals|
+      animals.each {|animal| animal.mood = 'nervous'} # change each animal's mood
+      animals.clear # clear all animals from pets hash
+    end
+  end
+
+  # can list off its pets
+  def list_pets
+  end
+
 end
