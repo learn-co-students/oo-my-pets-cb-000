@@ -33,4 +33,22 @@ class Owner
   def say_species
     "I am a #{species}."
   end
+
+  # can buy a fish that is an instance of the Fish class
+  # knows about its fishes
+  def buy_fish(name)
+    pets[:fishes] << Fish.new(name)
+  end
+
+  # can buy a cat that is an instance of the Cat class
+  # knows about its cats
+  def buy_cat(name)
+    pets[:cats] << Cat.new(name)
+  end
+
+  # can buy a dog that is an instance of the Dog class
+  # knows about its dogs
+  def buy_dog(name)
+    pets[:dogs] << Dog.new(name)
+  end
 end
