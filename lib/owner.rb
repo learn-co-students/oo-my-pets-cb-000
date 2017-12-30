@@ -1,6 +1,7 @@
 class Owner
-  attr_reader :species, :pets
-  attr_accessor :name
+  attr_reader :species
+  attr_accessor :name, :pets
+  @@all = []
 
   def initialize(species)
     @@all << self
@@ -12,7 +13,11 @@ class Owner
     @@all
   end
 
-  def self.all
+  def self.count
+    @@all.size
+  end
+
+  def self.reset_all
     @@all = []
   end
 
@@ -24,7 +29,7 @@ class Owner
     @pets[:fishes] << Fish.new(name)
   end
 
-  def feed_fish(name)
+  def feed_fish
     @pets[:fishes].each do |fish|
       fish.mood = "happy"
     end
@@ -34,7 +39,7 @@ class Owner
     @pets[:cats] << Cat.new(name)
   end
 
-  def play_with_cats(name)
+  def play_with_cats
     @pets[:cats].each do |cat|
       cat.mood = "happy"
     end
@@ -44,7 +49,7 @@ class Owner
     @pets[:dogs] << Dog.new(name)
   end
 
-  def walk_dogs(name)
+  def walk_dogs
     @pets[:dogs].each do |dog|
       dog.mood = "happy"
     end
@@ -54,16 +59,16 @@ class Owner
     @pets.each do |type, pets|
 
       pets.each do |pet|
-        pet.name = "nervous"
+        pet.mood = "nervous"
       end
 
     end
 
-    @pets = {}
+    @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
   def list_pets
-    puts "I have #{@pets[:fishes].size} fish, #{@pets[:dogs].size} dog(s), and #{@pets[:cats].size} cat(s)."
+    "I have #{@pets[:fishes].size} fish, #{@pets[:dogs].size} dog(s), and #{@pets[:cats].size} cat(s)."
   end
 
 end
