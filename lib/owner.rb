@@ -1,14 +1,12 @@
 class Owner
   # code goes here
-  attr_accessor :name
+  attr_accessor :name, :pets
   attr_reader :species, :fishes, :dogs, :cats
   @@all = []
-  @@count = 0
 
   def initialize(species)
     @species = species
     @@all << self
-    @@count += 1
     @pets = {
       :fishes => [],
       :dogs => [],
@@ -26,7 +24,7 @@ class Owner
   end
 
   def self.count
-    @@count
+    @@all.count
   end
 
   def species
@@ -72,12 +70,12 @@ class Owner
    end
 
    def sell_pets
-     @pets[:dogs].each { |dog| dog.mood = "nervous"}
-     @pets[:cats].each { |cat| cat.mood = "nervous"}
-     @pets[:fishes].each { |fish| fish.mood = "nervous"}
-     @pets[:dogs] = []
-     @pets[:cats] = []
-     @pets[:fishes] = []
+     pets.each do |species, animals|
+      animals.each do |animal|
+        animal.mood = "nervous"
+      end
+      animals.clear
+    end
    end
 
    def list_pets
